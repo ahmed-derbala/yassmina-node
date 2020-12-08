@@ -1,0 +1,17 @@
+{
+    "source": {
+      "include": ["api"],
+      "includePattern": ".js$",
+      "excludePattern": "(node_modules/|docs/|uploads)"
+    },
+    "plugins": ["plugins/markdown"],
+    "templates": {
+      "cleverLinks": true,
+      "monospaceLinks": true
+    },
+    "opts": {
+      "recurse": true,
+      "destination": "./docs/jsdocdir",
+      "readme": "./README.md"
+    }
+  }

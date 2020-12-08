@@ -1,0 +1,4 @@
+{
+  "verbose": false,
+  "ignore": ["public/*", "app_client/*","docs/jsdocdir/*","uploads/*","node_modules/*",".github/*"]
+}
